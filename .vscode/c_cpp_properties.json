@@ -1,0 +1,60 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/carlos/dev/gimbal/include",
+                "/home/carlos/dev/gimbal/src",
+                "/home/carlos/dev/gimbal/.pio/libdeps/nanoatmega328new/MPU6050/src",
+                "/home/carlos/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/carlos/dev/gimbal/.pio/libdeps/nanoatmega328new/Servo/src",
+                "/home/carlos/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/carlos/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                "/home/carlos/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/carlos/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/carlos/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/carlos/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/carlos/dev/gimbal/include",
+                    "/home/carlos/dev/gimbal/src",
+                    "/home/carlos/dev/gimbal/.pio/libdeps/nanoatmega328new/MPU6050/src",
+                    "/home/carlos/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/carlos/dev/gimbal/.pio/libdeps/nanoatmega328new/Servo/src",
+                    "/home/carlos/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/carlos/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                    "/home/carlos/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/carlos/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/carlos/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/carlos/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "ARDUINO_AVR_NANO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/home/carlos/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
